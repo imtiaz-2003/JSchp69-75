@@ -44,10 +44,9 @@ function getRandomId() {
 // email regex
 let emailValidation = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/
 
-// ---------------------------------------------------------------------------------------------------------------
+// --------------------------------------------------------------------------------------------------------------
 
 let users = []
-
 
 const handleSubmit = () => {
 
@@ -155,7 +154,7 @@ document.getElementById("year").innerHTML = year;
 //     document.getElementById("input").innerHTML = " ";
 // }
 
-// clear functions
+// clear functions------
 
 document.getElementById("ClearResult").onclick = function () {
   document.getElementById("output").innerHTML = " ";
