@@ -142,7 +142,7 @@ const printUsers = () => {
 
 
 
-// footer current year -------------
+// footer current year ----------
 let now = new Date();
 let year = now.getFullYear();
 document.getElementById("year").innerHTML = year;
